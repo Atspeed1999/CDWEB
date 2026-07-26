@@ -26,7 +26,7 @@ const heroMoments = [
   },
   {
     eyebrow: "Gulfline Auto Spa",
-    title: "Made for Tampa Bay.",
+    title: "Ultimate Car Detailing Services",
     body: "The ultimate car detailing service—tailored to your vehicle and the way you drive.",
     range: [0.76, 0.86],
     persist: true,
@@ -254,7 +254,7 @@ function ScrollHero() {
         <div className="scroll-hero-copy">
           <div className="hero-intro" style={{ opacity: Math.max(0, 1 - progress * 6) }}>
             <p className="hero-kicker">Tampa, Florida · Mobile &amp; studio detailing</p>
-            <h1>Tampa’s finish, <em>perfected.</em></h1>
+            <h1>Tampa Top <em>Car Detailer</em></h1>
             <p className="lede">Precision detailing for cars that live in the real world—crafted to stay brilliant through Gulf Coast sun, salt, and storms.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#quote">Request a quote <span aria-hidden="true">→</span></a>
