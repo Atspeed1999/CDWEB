@@ -40,7 +40,7 @@ const services = [
     name: "Paint Correction",
     detail: "Measured polishing lifts swirls, haze, and oxidation while preserving the clear coat your vehicle needs.",
     time: "1–3 days",
-    image: "/craft-detail-v2.jpg",
+    image: "/service-paint-correction.png",
     imagePosition: "center 54%",
   },
   {
@@ -48,7 +48,7 @@ const services = [
     name: "Ceramic Coating",
     detail: "A durable, hydrophobic barrier that helps gloss hold up through Tampa sun, salt air, and sudden rain.",
     time: "1–2 days",
-    image: "/hero-detail-v2.jpg",
+    image: "/service-ceramic-coating.png",
     imagePosition: "center 66%",
   },
   {
@@ -56,7 +56,7 @@ const services = [
     name: "Signature Detail",
     detail: "A complete interior and exterior reset for vehicles that need thoughtful attention from cabin to paintwork.",
     time: "4–6 hours",
-    image: "/service-signature-detail.jpeg",
+    image: "/service-signature-detail.png",
     imagePosition: "center",
   },
   {
@@ -64,7 +64,7 @@ const services = [
     name: "Interior Detail",
     detail: "Deep cleaning for high-touch surfaces, upholstery, carpets, glass, and the places daily use leaves behind.",
     time: "3–5 hours",
-    image: "/service-interior-detail.jpeg",
+    image: "/service-interior-detail.png",
     imagePosition: "center",
   },
   {
@@ -72,7 +72,7 @@ const services = [
     name: "Maintenance Detail",
     detail: "Recurring care that keeps a well-kept vehicle crisp between larger correction or protection services.",
     time: "2–3 hours",
-    image: "/service-maintenance.jpeg",
+    image: "/service-maintenance.png",
     imagePosition: "center",
   },
   {
@@ -80,7 +80,7 @@ const services = [
     name: "Wheel & Trim Care",
     detail: "Focused cleaning and finishing for wheels, tires, exterior trim, and the details that frame the whole vehicle.",
     time: "1–2 hours",
-    image: "/service-wheel-care.jpeg",
+    image: "/service-wheel-care.png",
     imagePosition: "center",
   },
 ];
