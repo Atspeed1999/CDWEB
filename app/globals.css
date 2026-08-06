@@ -172,6 +172,11 @@ footer p { margin: 0; color: #526872; font-size: 13px; }
 footer div { display: flex; gap: 24px; font-size: 11px; font-weight: 800; }
 footer small { grid-column: 1 / -1; padding-top: 24px; border-top: 1px solid var(--line); color: #63747b; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
 
+.whatsapp-chat { position: fixed; right: max(20px, env(safe-area-inset-right)); bottom: max(20px, env(safe-area-inset-bottom)); z-index: 40; display: inline-flex; min-height: 58px; align-items: center; gap: 11px; border-radius: 29px; padding: 8px 20px 8px 8px; background: #25d366; color: #082d1b; box-shadow: 0 12px 30px rgba(6, 36, 28, .24); font-size: 12px; font-weight: 850; letter-spacing: -.01em; transition: transform .2s cubic-bezier(.2,.75,.2,1), box-shadow .2s ease, background .2s ease; }
+.whatsapp-chat:hover { background: #31df72; box-shadow: 0 16px 36px rgba(6, 36, 28, .3); transform: translateY(-3px); }
+.whatsapp-chat-icon { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 50%; background: #0d3e28; color: #fff; font-size: 23px; line-height: 1; transform: rotate(-18deg); }
+.whatsapp-chat-label { white-space: nowrap; }
+
 @media (max-width: 980px) {
   nav { display: none; }
   .site-header { grid-template-columns: 1fr auto; }
@@ -238,6 +243,9 @@ footer small { grid-column: 1 / -1; padding-top: 24px; border-top: 1px solid var
   footer { grid-template-columns: 1fr; gap: 22px; padding: 46px 20px 28px; }
   footer div { flex-wrap: wrap; gap: 0 22px; }
   footer div a { display: inline-flex; min-height: 44px; align-items: center; }
+  .whatsapp-chat { right: max(14px, env(safe-area-inset-right)); bottom: max(14px, env(safe-area-inset-bottom)); width: 56px; min-height: 56px; justify-content: center; padding: 7px; }
+  .whatsapp-chat-icon { width: 42px; height: 42px; }
+  .whatsapp-chat-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 }
 
 @media (max-width: 380px) {
