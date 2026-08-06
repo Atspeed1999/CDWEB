@@ -456,7 +456,7 @@ export default function Home() {
 
       <a
         className="whatsapp-chat"
-        href="https://wa.me/919560930560?text=Hi%20Gulfline%20Auto%20Spa%2C%20I%27d%20like%20to%20ask%20about%20car%20detailing."
+        href="https://wa.me/919560930560?text=If%20you%20came%20here%2C%20so%20would%20your%20customers."
         target="_blank"
         rel="noreferrer"
         aria-label="Talk to us on WhatsApp"
