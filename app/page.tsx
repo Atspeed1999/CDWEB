@@ -459,10 +459,10 @@ export default function Home() {
         href="https://wa.me/919560930560?text=Hi%20Gulfline%20Auto%20Spa%2C%20I%27d%20like%20to%20ask%20about%20car%20detailing."
         target="_blank"
         rel="noreferrer"
-        aria-label="Chat with Gulfline Auto Spa on WhatsApp"
+        aria-label="Talk to us on WhatsApp"
       >
         <span className="whatsapp-chat-icon" aria-hidden="true">✆</span>
-        <span className="whatsapp-chat-label">Chat on WhatsApp</span>
+        <span className="whatsapp-chat-label">Talk To Us</span>
       </a>
     </main>
   );
